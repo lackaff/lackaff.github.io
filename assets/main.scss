@@ -3,10 +3,10 @@
 
 $text-color: #46433A;
 $anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$background-color: #FFFFFF;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color: $text-color;
 	background-color: $background-color;
 }
@@ -44,9 +44,9 @@ a:hover {
 
 /* override the left margin added by font awesome for the main content list,
 since it must be aligned with the content */
-.fa-ul.main-list {
-	margin-left: 0;
-}
+// .fa-ul.main-list {
+// 	margin-left: 0;
+// }
 
 /* list icons */
 .main-list-item-icon {
